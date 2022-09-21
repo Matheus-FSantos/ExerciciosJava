@@ -7,7 +7,7 @@ package exercicios;
  *
  * @author mfm65
  */
-public class ex01 {
+public class Exercicio01 {
     public static void main(String[] args) {
         int quant = 5;
         int vetor[] = new int[quant];

@@ -8,7 +8,7 @@ package exercicios;
  *
  * @author mfm65
  */
-public class ex07 {
+public class Exercicio07 {
     
     static int []inserirNumeros(int vetorA[], int quant){
         for(int i = 0; i < vetorA.length; i++){

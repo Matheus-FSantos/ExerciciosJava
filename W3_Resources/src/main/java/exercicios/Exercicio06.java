@@ -8,7 +8,7 @@ package exercicios;
  *
  * @author mfm65
  */
-public class ex06 {
+public class Exercicio06 {
     
     static int []insereNumeros(int vetor[], int quant){
         for(int i = 0; i < vetor.length; i++){

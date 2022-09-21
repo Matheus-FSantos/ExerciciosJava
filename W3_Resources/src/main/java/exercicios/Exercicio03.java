@@ -8,7 +8,7 @@ import java.util.Scanner;
  *
  * @author mfm65
  */
-public class ex03{
+public class Exercicio03 {
   public static void main(String[] args){
     Scanner leitor = new Scanner(System.in);
     
