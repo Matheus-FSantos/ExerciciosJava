@@ -7,6 +7,9 @@
   <p>
     Espaço destinado para a postagem de alguns exercicios, sobre algoritmos, em JAVA, onde todos os códigos foram escritos utilizando a IDE NetBeans e foram feitos somente para fins didáticos e para o entendimento de conteúdos, sem visar códigos enxutos ou algo do tipo, somente, novamente, a assimilação do conteúdo passado em aula.
   </p>
+  <p>
+    OBS: Os exercicios nem sempre estão na mesma ordem da lista.
+  </p>
 </section>
 
 <hr>
