@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author mfm65
  *
  */
-public class exercicio13 {
+public class Exercicio13 {
 	static int fibonacci(int numero) {
 		if (numero == 1 || numero == 0) {
 			return numero; 

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author mfm65
  *
  */
-public class exercicio11 {
+public class Exercicio11 {
 	
 	static int fatorial(int numero) {
 		if (numero == 1) {

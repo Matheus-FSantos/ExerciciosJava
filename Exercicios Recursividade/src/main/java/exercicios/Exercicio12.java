@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author mfm65
  *
  */
-public class exercicio12 {
+public class Exercicio12 {
 	static int []inserir(int vetor[]){
 		for(int i = 0; i < vetor.length; i++) {
 			vetor[i] = (int)(Math.random()*100+1);
