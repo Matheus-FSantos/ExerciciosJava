@@ -66,7 +66,6 @@ public class ADO03 {
         } while(contador < quantidadeJogos);
     }
     
-    //Imprime o jogo premiado
     private static void impressaoJogoSorteio(int jogo[]){
         System.out.println("Jogo:");
         for(int elemento : jogo){
@@ -76,7 +75,6 @@ public class ADO03 {
         System.out.println("\n");
     }
     
-    //Imprime os jogos do usuario
     private static void impressaoJogoUsuario(int vetor[], int numeroJogo){
         System.out.println("\n" + numeroJogo + "º Jogo");
         for(int elemento : vetor){
@@ -85,7 +83,6 @@ public class ADO03 {
         System.out.println();
     }
     
-    //Verifica a mensagem correta para cada ocasiao
     private static void imprimeResultado(int acertos) {
     	switch (acertos) {
     		case 4:
@@ -103,7 +100,6 @@ public class ADO03 {
     	}
     }
     
-    //Algoritmo de Insertion S.
     private static int []ordenaJogo(int jogo[]) {
     	int j, aux;
         
@@ -149,7 +145,6 @@ public class ADO03 {
         return vetor;
     }
     
-    //Verifica atravez de uma busca linear se existe numeros iguais em cada posicao do vetor
     private static int verificacao(int vetor[], int numeroInformado){
         for(int i = 0; i < vetor.length - 1; i++){
             while(vetor[i] == numeroInformado) {
@@ -170,7 +165,6 @@ public class ADO03 {
         return numeroInformado;
     }
     
-    //Pega o primeiro numero do vetor e faz uma busca binaria recursiva
     private static boolean buscaNumero(int jogo[], int numeroBuscado, int quantidadeAcertada){
         int meio = 0;
         int inicio = 0;
