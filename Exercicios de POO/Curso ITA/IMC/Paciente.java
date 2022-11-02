@@ -41,19 +41,19 @@ public class Paciente {
 	}
 	
 	public String diagnostico() {
-		if(getIMC() < 16.00) {
+		if(this.getIMC() < 16.00) {
 			return "O Paciente está muito abaixo do peso, muito grave!";
-		} else if(getIMC() >= 16.00 && getIMC() < 16.99) {
+		} else if(this.getIMC() >= 16.00 && this.getIMC() < 16.99) {
 			return "O Paciente está muito abaixo do peso, grave!";
-		} else if(getIMC() >= 17.00 && getIMC() < 18.49) {
+		} else if(this.getIMC() >= 17.00 && this.getIMC() < 18.49) {
 			return "O Paciente está abaixo do peso!";
-		} else if(getIMC() >= 18.50 && getIMC() < 24.99) {
+		} else if(this.getIMC() >= 18.50 && this.getIMC() < 24.99) {
 			return "O Paciente está com o peso adequado";
-		} else if(getIMC() >= 25.00 && getIMC() < 29.99) {
+		} else if(this.getIMC() >= 25.00 && this.getIMC() < 29.99) {
 			return "O Paciente está sobre o peso";
-		} else if(getIMC() >= 30.00 && getIMC() < 34.99) {
+		} else if(this.getIMC() >= 30.00 && this.getIMC() < 34.99) {
 			return "O Paciente está com Obesidade Grau 1";
-		} else if(getIMC() >= 35 && getIMC() < 39.99) {
+		} else if(this.getIMC() >= 35 && this.getIMC() < 39.99) {
 			return "O Paciente está com Obesidade Grau 2";
 		} else {
 			return "O Paciente está com Obesidade Grau 3";
@@ -61,7 +61,7 @@ public class Paciente {
 	}
 	
 	public void calcularIMC() {
-		setIMC((getPeso() /(getAltura() * getAltura())));
+		this.setIMC((this.getPeso() /(this.getAltura() * this.getAltura())));
 	}
 	
 	public Paciente() {
