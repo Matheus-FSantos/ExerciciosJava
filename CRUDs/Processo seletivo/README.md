@@ -19,7 +19,6 @@
   <h6 align="center">Informações:</h6>
   <p>
       Autor: Matheus F. Santos<br/>
-      Agradecimentos: Professor Marcos Monteiro<br/>
       Empresa: Élin Duxus Consultoria
   </p>
 </section>
