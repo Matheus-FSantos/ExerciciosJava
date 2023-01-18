@@ -1,0 +1,49 @@
+<div th:replace="shared/header"></div>
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+	<!-- Page Heading -->
+	<h1 class="h3 mb-2 text-muted">Administradores</h1>
+	<p class="mb-4 text-muted">Aqui irá listar os <strong>administradores</strong> do meu sistema</p>
+
+	<!-- DataTales Example -->
+	<div class="card shadow mb-4">
+		<div class="card-header py-3">
+			<h6 class="m-0 font-weight-bold text-primary">Lista de administradores</h6>
+		</div>
+		<div class="card-body">
+			<div class="table-responsive">
+				<table class="table table-striped" id="dataTable" width="100%" cellspacing="0">
+					<thead>
+						<tr>
+							<th>Nome</th>
+							<th>E-mail</th>
+							<th>Endereço</th>
+							<th>Editar</th>
+							<th>Excluir</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Matheus Ferreira</td>
+							<td>matheus.fs.contato@gmail.com</td>
+							<td>Rua Paolo Porpora</td>
+							<td><button class="btn btn-warning">Editar</button></td>
+							<td><button class="btn btn-danger">Excluir</button></td>
+						</tr>
+						<tr>
+							<td>Matheus Ferreira</td>
+							<td>matheus.fs.contato@gmail.com</td>
+							<td>Rua Paolo Porpora</td>
+							<td><button class="btn btn-warning">Editar</button></td>
+							<td><button class="btn btn-danger">Excluir</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!-- /.container-fluid -->
+<div th:replace="shared/footer"></div>
