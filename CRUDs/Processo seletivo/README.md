@@ -18,8 +18,7 @@
 <section>
   <h6 align="center">Informações:</h6>
   <p>
-      Autor: Matheus F. Santos<br/>
-      Empresa: Élin Duxus Consultoria
+      Autor: Matheus F. Santos
   </p>
 </section>
 
